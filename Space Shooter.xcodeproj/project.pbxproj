@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702E649026E266EC00EA6B6E /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 702E648E26E266EC00EA6B6E /* waves.json */; };
+		702E649126E266EC00EA6B6E /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = 702E648F26E266EC00EA6B6E /* enemy-types.json */; };
+		702E649326E2675A00EA6B6E /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E649226E2675A00EA6B6E /* EnemyType.swift */; };
+		702E649526E2684200EA6B6E /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E649426E2684200EA6B6E /* Wave.swift */; };
+		702E649726E2697900EA6B6E /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E649626E2697900EA6B6E /* Bundle-Decoding.swift */; };
+		702E649926E26ED700EA6B6E /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E649826E26ED700EA6B6E /* EnemyNode.swift */; };
+		702E649B26E51ECB00EA6B6E /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 702E649A26E51ECB00EA6B6E /* Explosion.sks */; };
 		705C24DB26E24A550070BC73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705C24DA26E24A550070BC73 /* AppDelegate.swift */; };
-		705C24DD26E24A550070BC73 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 705C24DC26E24A550070BC73 /* GameScene.sks */; };
-		705C24DF26E24A550070BC73 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 705C24DE26E24A550070BC73 /* Actions.sks */; };
 		705C24E126E24A550070BC73 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705C24E026E24A550070BC73 /* GameScene.swift */; };
 		705C24E326E24A550070BC73 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705C24E226E24A550070BC73 /* GameViewController.swift */; };
 		705C24E626E24A550070BC73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705C24E426E24A550070BC73 /* Main.storyboard */; };
 		705C24E826E24A580070BC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705C24E726E24A580070BC73 /* Assets.xcassets */; };
+		705C24F226E24CB50070BC73 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 705C24F126E24CB50070BC73 /* Starfield.sks */; };
+		705C251526E256530070BC73 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 705C251426E256530070BC73 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702E648E26E266EC00EA6B6E /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
+		702E648F26E266EC00EA6B6E /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
+		702E649226E2675A00EA6B6E /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
+		702E649426E2684200EA6B6E /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		702E649626E2697900EA6B6E /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		702E649826E26ED700EA6B6E /* EnemyNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		702E649A26E51ECB00EA6B6E /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		705C24D726E24A550070BC73 /* Space Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		705C24DA26E24A550070BC73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		705C24DC26E24A550070BC73 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		705C24DE26E24A550070BC73 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		705C24E026E24A550070BC73 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		705C24E226E24A550070BC73 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		705C24E526E24A550070BC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		705C24E726E24A580070BC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705C24E926E24A580070BC73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705C24F126E24CB50070BC73 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		705C251426E256530070BC73 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../../../Desktop/GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,7 @@
 				705C24D826E24A550070BC73 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		705C24D826E24A550070BC73 /* Products */ = {
 			isa = PBXGroup;
@@ -59,13 +74,20 @@
 			isa = PBXGroup;
 			children = (
 				705C24DA26E24A550070BC73 /* AppDelegate.swift */,
-				705C24DC26E24A550070BC73 /* GameScene.sks */,
-				705C24DE26E24A550070BC73 /* Actions.sks */,
+				705C251426E256530070BC73 /* GameScene.sks */,
 				705C24E026E24A550070BC73 /* GameScene.swift */,
+				702E649A26E51ECB00EA6B6E /* Explosion.sks */,
+				702E649826E26ED700EA6B6E /* EnemyNode.swift */,
 				705C24E226E24A550070BC73 /* GameViewController.swift */,
 				705C24E426E24A550070BC73 /* Main.storyboard */,
 				705C24E726E24A580070BC73 /* Assets.xcassets */,
+				705C24F126E24CB50070BC73 /* Starfield.sks */,
 				705C24E926E24A580070BC73 /* Info.plist */,
+				702E648F26E266EC00EA6B6E /* enemy-types.json */,
+				702E648E26E266EC00EA6B6E /* waves.json */,
+				702E649226E2675A00EA6B6E /* EnemyType.swift */,
+				702E649426E2684200EA6B6E /* Wave.swift */,
+				702E649626E2697900EA6B6E /* Bundle-Decoding.swift */,
 			);
 			path = "Space Shooter";
 			sourceTree = "<group>";
@@ -127,10 +149,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702E649126E266EC00EA6B6E /* enemy-types.json in Resources */,
 				705C24E626E24A550070BC73 /* Main.storyboard in Resources */,
-				705C24DD26E24A550070BC73 /* GameScene.sks in Resources */,
+				705C251526E256530070BC73 /* GameScene.sks in Resources */,
+				705C24F226E24CB50070BC73 /* Starfield.sks in Resources */,
+				702E649026E266EC00EA6B6E /* waves.json in Resources */,
+				702E649B26E51ECB00EA6B6E /* Explosion.sks in Resources */,
 				705C24E826E24A580070BC73 /* Assets.xcassets in Resources */,
-				705C24DF26E24A550070BC73 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702E649726E2697900EA6B6E /* Bundle-Decoding.swift in Sources */,
+				702E649926E26ED700EA6B6E /* EnemyNode.swift in Sources */,
 				705C24E126E24A550070BC73 /* GameScene.swift in Sources */,
+				702E649526E2684200EA6B6E /* Wave.swift in Sources */,
 				705C24E326E24A550070BC73 /* GameViewController.swift in Sources */,
+				702E649326E2675A00EA6B6E /* EnemyType.swift in Sources */,
 				705C24DB26E24A550070BC73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniogormley.Space-Shooter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,7 +340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniogormley.Space-Shooter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
